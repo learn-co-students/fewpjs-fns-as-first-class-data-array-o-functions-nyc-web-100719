@@ -36,4 +36,4 @@ function exerciseDog (dogName, dogBreed) {
    return routine.map(dogFunc => dogFunc(dogName, dogBreed)) 
 }
 
-exerciseDog()
+exerciseDog("Senna", "chihuahua-terrier")
